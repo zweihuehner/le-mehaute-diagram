@@ -228,9 +228,8 @@ def example():
     Example.add_wave(H=H, d=d, T=T+1, label="example wave 3", color="purple", marker="^", mec="black", markersize=50) 
     Example.add_wave(H=H-0.05, d=d, T=T, label="example wave 4 ", color=(1.0, 0.0, 0.0), marker="s", mec="black", markersize=40) 
     Example.legend(loc="upper left")
-    Example.show()
-
-    plt.savefig("Example_Diagram.pdf")
+    plt.savefig("Example_Diagram.png", bbox_inches="tight")
+    plt.show()
 
 if __name__ == "__main__":
     example()
