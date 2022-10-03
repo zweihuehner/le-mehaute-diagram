@@ -17,4 +17,4 @@ Example.show()
 ```
 An example function is added to the script which produces the following plot:
 
-![Le Mehaute Diagram](LeMehaute.png)
+![Le Mehaute Diagram](Example_Diagram.png)
