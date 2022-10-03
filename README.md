@@ -16,3 +16,5 @@ Example.add_wave(H=0.11, d=1.682, T=1.42, label="example wave 1")
 Example.show()
 ```
 An example function is added to the script which produces the following plot:
+
+![Le Mehaute Diagram](LeMehaute.png)
